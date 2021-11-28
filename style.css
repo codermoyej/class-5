@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{}
+img{
+	width: 100%;
+}
+header{
+    background: #222E5E;
+    padding: 20px 0;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+.container-fullwidth{
+    width: 100%;
+    overflow: hidden;    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+	align-items: center;
+}
+.logo{
+	max-width: 20%;
+	flex-basis: 20%;
+}
+.logo img{
+    width: 188px;
+}
+.main-menu{
+	max-width: 65%;
+	flex-basis: 65%;
+}
+.main-menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.main-menu ul li{}
+.main-menu ul li a{text-decoration: none;
+	font-family: Montserrat;padding: 10px 20px;
+	font-size: 17px;font-weight: 500;
+	text-transform: capitalize;color: #cfcdcd;
+	transition: all .5s linear;
+}
+.main-menu ul li a:hover{
+    color: #fff;
+}
+.reg-col{
+	max-width: 15%;
+	flex-basis: 15%;
+
+}
+.reg-button{
+	display: block;
+	padding: 18px 10px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	border-radius: 29px;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+	transition: all .3s linear;
+}
+.reg-button:hover{
+	background: #F05B1D;
+	color: #000000;
+	border: 1px solid #000000;
+}
+/*Hero Section*/
+.hero{
+    /* height: 553px; */
+    overflow: hidden;
+    background: #222E5E;
+    padding: 81px 0;
+}
+.col-1-2{
+    max-width: 50%;
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+.hero h1{
+	display: block;
+	font-family: Montserrat;
+	font-size: 55px;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 20px 112px 20px 0;
+	text-align: left;
+	line-height: 67px;
+}
+.hero p{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	color: #ffffff;
+	padding: 20px 112px 20px 0;
+	text-align: left;
+	line-height: 34px;
+}
+.hero-button{
+	display: block;
+	padding: 18px 9px;
+	border: 1px solid #F05B1D;
+	text-decoration: none;
+	background: #F05B1D;
+	color: #fff;
+	text-align: center;
+	border-radius: 29px;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+	transition: all .3s linear;
+	width: 214px;
+	/* margin-top: 59px; */
+}
+.hero-button:hover{
+	background: #1AB15F;
+	border: 1px solid #ffffff;
+}
+.meta-detail{
+
+}
+.col-1-5{
+
+}
+.meta-detail span{
+
+}
+.meta-detail p{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
